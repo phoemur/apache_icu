@@ -1,0 +1,16 @@
+language: cpp
+compiler: gcc
+dist: trusty
+
+before_install:
+  - cd ${TRAVIS_BUILD_DIR}
+  - sudo apt-get update -qq
+
+install:
+  - sudo apt-get install -qq qtbase5-dev qtdeclarative5-dev libqt5webkit5-dev libsqlite3-dev
+  - sudo apt-get install -qq qt5-default qttools5-dev-tools qt5-qmake
+
+script: 
+  - cd ${TRAVIS_BUILD_DIR}
+  - qmake apache.pro
+  - make
