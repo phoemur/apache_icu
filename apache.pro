@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = apache
+TARGET = apache_icu
 INCLUDEPATH += .
 
 # The following define makes your compiler warn you if you use any
