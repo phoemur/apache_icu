@@ -26,3 +26,7 @@ RESOURCES += images/icons.qrc
 # Custom configs
 QT += widgets
 QMAKE_CXXFLAGS += -std=c++14
+
+# Release version
+CONFIG += release
+QMAKE_POST_LINK=$(STRIP) $(TARGET)
