@@ -13,7 +13,7 @@ Qt 5
 1. Linux:
  * qmake-qt5
  * make
- * ./apache
+ * ./apache_icu
 
 2. Windows:
  * qmake
