@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>filenew.gif</file>
+    <file>exit.gif</file>
+    <file>bookmark.gif</file>
+  </qresource>
+</RCC>
